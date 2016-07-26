@@ -1,0 +1,71 @@
+Assignment #5: Variable Type vs Object Type
+
+
+1.Which of the followings is considered boxing?
+
+a. double dblx = fx;
+b. float fx = ix;
+c. object myobjx = fx;
+d. int ix = objy;
+
+ANSWER: c
+
+
+2.Which of the followings is considered unboxing?
+
+a. string str = ix.ToString();
+b. double dblx =(double) fx;
+c. object myobjx = fx;
+d. int ix = (int) objy;
+
+ANSWER: d
+
+
+3.Object objdblx is of type double. Assign the value of this object to a variable of type float.
+
+float fx = objdblx;
+
+ANSWER: float fx = (float)(double)objdblx;
+
+
+4.Object objflx is of type float. Assign the value of this object to another variable of type double.
+
+double dx = objflx;
+
+ANSWER: double dx = (double)(float)objflx;
+
+
+5.Convert the string strx to a double dblx:
+
+double dblx = 
+
+ANSWER: double dblx = strx.ToDouble();
+
+
+6.Convert the integer ix to a float fx:
+
+float fx = 
+
+ANSWER: float fx = ix;
+
+
+7.Convert the double dblx to a string strx:
+
+string strx =
+
+ANSWER: string strx = dblx.ToString();
+
+
+8.Object is the                  class of all other data types.
+
+ANSWER: base
+
+
+9.What is an object (the definition)?
+
+ANSWER: An object is an instance of a class, meaning it is a block of memory that has been allocated and configured according to the blueprint provided by the class.
+
+
+10.How do you declare an object in C#? What is the difference between an object and a variable?
+
+ANSWER: To declare an object, you write the name of the class followed by an name for the object (example: Dog milo;). Whereas an object is a named instance of a class, a variable is a reference to an object (but not an object on its own).
